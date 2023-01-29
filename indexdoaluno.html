@@ -1,0 +1,60 @@
+ 
+<html>
+    <head>
+      <title>Identificador de Imagens</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+      <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+  
+     <link rel="stylesheet" href="style.css">
+    
+    </head>
+  
+    <body>
+    <div class="container">
+      
+      <center>
+       <h1>identificador de animes</h1> 
+        <br>
+       <h2>esse site identifica personagems de animes</h2> 
+  
+        <h3>law</h3>
+  <br>
+<h3>barba branca</h3>
+<br>
+<h3>shanks
+</h3>
+
+        <label>Visualização da webcam - </label>
+        <!-- Coloque um ID para a câmera-->
+        <div id="camera"></div>
+        <br><br>
+        <!-- Coloque um ID para o resultado-->
+        <div id="result"></div>
+        <br><br>
+        <button onclick="capturarimagem();">
+CAPTURAR IMAGEM
+        </button>
+        <button onclick="identificarimagem();">
+          IDENTIFICAR IMAGEM
+          </button>
+        <br><br>
+
+        <br><br>
+  
+        <p style="font-size: 22px;">Objeto : <span id="result_object_name"></span> </p>
+        <p style="font-size: 22px;">Precisão : <span id="result_object_accuracy"></span> </p>
+      </center>
+  
+    </div>
+    <script src="maindoaluno.js"></script>
+  
+    </body>
+  </html>
+  
+   
+  
